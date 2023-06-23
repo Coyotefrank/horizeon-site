@@ -24,7 +24,7 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+.header section {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -91,15 +91,11 @@ p {
     color: #ffffff;
 }
 
-.benefit-brand {
+.benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
+/* added the benefit -cost to th benifet-brand section to avoid having the unecessary section */
 
 .benefit-lead h3 {
     margin-bottom: 10px;
